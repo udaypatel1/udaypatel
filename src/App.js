@@ -1,17 +1,15 @@
-
-import './App.css';
-
-import './fonts/Poppins/Poppins-Regular.ttf'
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import './components/Navbar/Navbar.css'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <Navbar />
+      
         
-        <p>
-          Uday Patel
-        </p>
-      </header>
+      
     </div>
   );
 }

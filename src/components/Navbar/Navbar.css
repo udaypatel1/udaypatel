@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.navbar {
+  background-color: #1b2539;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0; /* Remove horizontal padding */
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Center the image vertically */
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some spacing between the image and other content */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: #cbd5e0;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s, box-shadow 0.3s; /* Add box-shadow transition */
+}
+
+.nav-links li a:hover {
+  color: #fff;
+  box-shadow: 0 -2px 0 #fff; /* Slide up the box-shadow on hover */
+}
