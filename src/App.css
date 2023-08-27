@@ -17,3 +17,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+h1 {
+  font-size: 5rem; /* Default font size */
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+
+  /* Adjust font size for different screen widths */
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
+}
