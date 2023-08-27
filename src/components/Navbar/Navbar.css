@@ -3,7 +3,6 @@
 @import 'tailwindcss/utilities';
 
 .navbar {
-  background-color: #1b2539;
   display: flex;
   justify-content: space-between;
   align-items: center;

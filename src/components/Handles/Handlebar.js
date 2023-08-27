@@ -1,8 +1,8 @@
 import React from 'react';
 import './Handlebar.css';
 
-import linkedinLogo from '../../images/linkedin_logo.png';
-import githubLogo from '../../images/github_logo.png';
+import linkedinLogo from '../../images/linkedin_logo_white.png';
+import githubLogo from '../../images/github_logo_white.png';
 
 function Handlebar() {
   return (

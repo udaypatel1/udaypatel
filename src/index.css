@@ -2,7 +2,7 @@
 
 
 body {
-  background-color: #1b2539; /* Use the same color as your navbar background */
+  background: linear-gradient(to bottom, #1b2539, black);
   margin: 0;
   padding: 0 1in;
   font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',

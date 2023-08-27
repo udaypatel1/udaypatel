@@ -3,13 +3,73 @@
 @import 'tailwindcss/utilities';
 
 
-.About-header {
-  background-color: #1b2539;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.About-body {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.About-header {
+  background: linear-gradient(to bottom, #1b2539, black);
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+.about-nav {
+  position: fixed;
+  top: 20px; /* Adjust top distance */
+  left: 20px; /* Adjust left distance */
+  background-color: black;
   color: white;
+  padding: 10px;
+  z-index: 500; /* Ensure the navbar is above other content */
+
+  @media (max-width: 768px) {
+    .about-nav {    
+      padding: 15px 20px; /* Adjust padding for smaller screens */
+      font-size: 1rem; /* Adjust font size */
+    }
+  }
+}
+
+.about-handle {
+
+  margin-top: 60px;
+
+
+}
+
+h1 {
+    
+  font-size: 5rem; /* Default font size */
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  color: #cbd5e0;
+  padding: 10px;
+  font-family: "Poppins";
+
+  /* Adjust font size for different screen widths */
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
+}
+
+
+
+.orangify {
+    position: relative;
+    top: 0;
+    color: orange;
+    transition: top 0.3s ease;
+}
+
+.orangify:hover{
+    top: -10px;
 }
