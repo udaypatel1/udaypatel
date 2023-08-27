@@ -11,20 +11,14 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center; /* Center the image vertically */
-}
-
-.logo img {
-  width: 100px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Add some spacing between the image and other content */
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 
 .nav-links li a {

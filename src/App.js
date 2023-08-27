@@ -5,11 +5,11 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className="App-header">
+
+      <h1 className="fontify">Uday Y. Patel</h1>
       <Navbar />
-      
-        
-      
+
     </div>
   );
 }

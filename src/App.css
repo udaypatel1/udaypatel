@@ -1,10 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
 .App {
   text-align: center;
-  
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1b2539;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
