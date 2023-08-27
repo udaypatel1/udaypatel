@@ -21,6 +21,11 @@
     height: auto; /* Maintain aspect ratio */
     margin-right: 50px; /* Add some spacing between the image and other content */
     padding: auto;
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.4);
 }
 
 .handle-links {
