@@ -61,7 +61,53 @@ h1 {
   }
 }
 
+h2 {
 
+  font-size: 1.5rem; /* Default font size */
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  color: #cbd5e0;
+  padding: 10px;
+  font-family: "Poppins";
+
+  /* Adjust font size for different screen widths */
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
+
+
+}
+
+h3 {
+
+  font-size: 1rem; /* Default font size */
+  text-align: left;
+  justify-content: left;
+  white-space: nowrap; /* Prevent text from wrapping */
+  color: #cbd5e0;
+  padding: 10px;
+  font-family: "Poppins";
+
+  /* Adjust font size for different screen widths */
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
+}
+
+
+.bottom-line {
+  border-bottom: 2px solid #333; /* Change the color and thickness as needed */
+  padding-bottom: 10px;
+}
 
 .orangify {
     position: relative;
