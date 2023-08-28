@@ -8,6 +8,7 @@ import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './About';
 import Resume from './Resume';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/about" Component={About} />
           <Route path="/resume" Component={Resume} />
+          <Route path="/contact" Component={Contact} />
           <Route path="/" Component={Home} />
         </Routes>
       </div>

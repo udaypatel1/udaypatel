@@ -1,13 +1,13 @@
 
 import React from 'react';
-import './Resume.css'
+import './Contact.css'
 
-function ResumePage() {
+function ContactPage() {
     return (
-      <div className="Resume-header">
+      <div className="Contact-header">
         <h2><span class="orangify">. . .</span> this page is still in <span class="orangify">development</span>. Thanks for your patience!</h2>
       </div>
     );
   }
   
-  export default ResumePage;
+  export default ContactPage;
